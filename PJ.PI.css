@@ -1,0 +1,81 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Cabeçalho */
+.hero {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Seções */
+.spotlight {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.spotlight.alt {
+  background: #eee; /* Cinza*/
+}
+
+.spotlight .content {
+  flex: 1;
+  padding: 20px;
+}
+
+.spotlight .image {
+  flex: 1;
+  text-align: center;
+}
+
+.spotlight .image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.Ajuste-List {
+ text-align: left; /*texto a esquerda */
+ padding-left: 25px; /* espaço interno da lateral esquerda */
+}
+
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .spotlight {
+    flex-direction: column;
+  }
+}
